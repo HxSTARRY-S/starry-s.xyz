@@ -1,5 +1,2 @@
-## This is my home page.
+Visit: [starry-s.xyz](https://starry-s.xyz)
 
-you can visit by [click here](http://starry-s.xyz)
-
-## STARRY-S.xyz
