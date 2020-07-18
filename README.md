@@ -1,2 +1,2 @@
-Visit: [starry-s.xyz](https://starry-s.xyz)
+# STARRY-S.ME
 
