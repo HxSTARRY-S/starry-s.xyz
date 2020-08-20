@@ -20,7 +20,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css" integrity="sha512-CIYsJUa3pr1eoXlZFroEI0mq0UIMUqNouNinjpCkSWo3Bx5NRlQ0OuC6DtEB/bDqUWnzXc1gs2X/g52l36N5iw==" crossorigin="anonymous" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js" integrity="sha512-RWosNnDNw8FxHibJqdFRySIswOUgYhFxnmYO3fp+BgCU7gfo4z0oS7mYFBvaa8qu+axY39BmQOrhW3Tp70XbaQ==" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="/js/jquery.min.js"></script> -->
     <!-- <script type="text/javascript" src="/js/animate.js"></script> -->
 
@@ -55,9 +57,22 @@
               </ul>
             </nav>
           </div>
+          <div id="aplayer" style="color: #121212;"></div>
         </div>
         <div class="panel-cover--overlay"></div>
       </div>
     </div>
-
+    <script>
+      const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        // fixed: true,
+        fixed: true,
+        audio: [{
+            name: '遺サレタ場所 (Live)',
+            artist: 'MONACA',
+            url: 'https://music.starry-s.me/music/5152_565d_525c_f88ecc9b5ca7519ca0e7e6dd56204229.m4a',
+            cover: 'https://music.starry-s.me/music/cover/109951163655505102.jpg'
+        }]
+      });
+    </script>
   </body>
