@@ -84,7 +84,7 @@ a:hover {
 }
 
 .panel-cover__divider {
-  width: 40%;
+  width: 30%;
   margin: 20px auto;
   border-top: 1px solid rgba(255, 255, 255, 0.26); 
 }
@@ -192,6 +192,16 @@ nav {
   .content-wrapper {
     margin-left: 130px; 
   } 
+}
+
+@media all and (max-width: 1300px) {
+  .panel-cover__divider {
+    width: 40%;
+  }
+  
+  .panel-cover__divider--secondary {
+    width: 20%; 
+  }
 }
 
 @media all and (max-width: 950px){
